@@ -129,4 +129,9 @@ class HomeController extends Controller
             ]
     ]);
     }
+
+    public function try()
+    {
+        return view('try');
+    }
 }

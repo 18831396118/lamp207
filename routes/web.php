@@ -95,3 +95,8 @@ Route::get('/duo','DBController@duo');
 
 //多表联查
 Route::get('/join','DBController@join');
+
+
+
+//github 尝试
+Route::get('/try','HomeController@try');
